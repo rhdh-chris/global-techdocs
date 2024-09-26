@@ -1,0 +1,13 @@
+site_name: parasol-techdocs
+site_description: Parasol Architecture
+repo_url: https://gitlab-gitlab.apps.sno.sandbox1220.opentlc.com/development/parasol-techdocs
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# Note for content editors, edit only the section below
+nav:
+  - Architecture Discussions:
+      - Core Services Overview: parasol/parasol-store.md
+      - Consumer Web Steps: parasol/parsol-web.md

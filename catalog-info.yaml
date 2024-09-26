@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "parasol-techdocs"
+  description: "Parasol Architecture"
+  annotations:
+    argocd/app-selector: rht-gitops.com/janus-argocd=parasol-techdocs-bootstrap
+    backstage.io/kubernetes-id: parasol-techdocs
+    janus-idp.io/tekton: parasol-techdocs
+    backstage.io/source-location: url:https://{{ gitlab_host }}/development/parasol-techdocs
+    backstage.io/techdocs-ref: url:https://{{ gitlab_host }}/rhdh/parasol-techdocs
+    gitlab.com/project-slug: development/parasol-techdocs
+  tags:
+    - docs
+spec:
+  type: Documentation
+  lifecycle: development
+  owner: "user1"
