@@ -1,6 +1,6 @@
-site_name: parasol-techdocs
+site_name: global-techdocs
 site_description: Parasol Architecture
-repo_url: https://gitlab-gitlab.apps.sno.sandbox1220.opentlc.com/development/parasol-techdocs
+repo_url: https://{{ gitlab_host }}/global/parasol-techdocs
 edit_uri: edit/main/docs
 
 plugins:
