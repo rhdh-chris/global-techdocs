@@ -1,6 +1,6 @@
 site_name: global-techdocs
 site_description: Parasol Architecture
-repo_url: https://{{ gitlab_host }}/global/global-techdocs
+repo_url: https://github.com/rhdh-chris/global-techdocs
 edit_uri: edit/main/docs
 
 plugins:
